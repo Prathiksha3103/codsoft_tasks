@@ -1,0 +1,105 @@
+header{
+    margin-top: 0%;
+    font-family:Arial,sans-serif;
+    padding-top:0 px;
+
+}
+.hero-content{
+    margin-top: 0%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+    padding: 4px 20px;
+    
+}
+
+.image img{
+    max-width 5px;
+    height:auto
+    border-radius:8px;
+    
+    
+}
+nav{
+    background-color:black;
+    color:white;
+    padding:15px;
+}
+nav ul li a{
+    margin:0 30px;
+    color:white;
+    text-decoration:none;
+}
+nav ul li a:hover{
+    color:#ffcc00;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.My-button:hover{
+    background-color:red
+    color:red;
+    text-decoration:underline;
+    transform:scale(1.05);
+    transition:0.3s;
+
+}
+
+li,h1,ul{
+    display:inline;
+}
+ul{
+   font-size: 1em;
+   margin-left:450px;
+ }   
+.My-button{
+    background-color: blue;
+    color: white;
+    padding:4px 24px;
+    border:none;
+    border-radius: 0px;
+    font-size: 20px;
+
+}
+
+#about h2{
+    
+    text-align:center;
+    margin-bottom:20px;
+    color: black;
+    
+}
+#about p{
+   color: black;
+   margin-left: 1.5%;
+}
+#skills h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:black;
+}
+#skills p{
+    color:black;
+    margin-left:1.5%;
+}
+#experience h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:black;
+}
+#experience p{
+    color:black;
+    margin-left:1.5%;
+}
+#contact h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:black;
+}
+#contact p{
+    color:black;
+    margin-left:1.5%;
+}
+html{
+    scroll-behavior: smooth;
+}
